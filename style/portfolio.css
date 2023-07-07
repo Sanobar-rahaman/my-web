@@ -147,11 +147,34 @@ main section {
 .resume-container {
     display: flex;
     /* justify-content: space-between; */
-    gap: 25px;
+    gap: 40px;
 }
 
 .resume-column-title {
-    color:  #474747;
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 15px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 17px;
+}
+.resume-item-title{
+    color: #757575;
+    font-size: 22px;
+}
+.resume-column-title{
+    margin-bottom: 25px;
+}
+.section-title{
+    margin-bottom: 25px;
+}
+hr{
+    margin: 20px;
 }
