@@ -1,5 +1,8 @@
 *{
-    margin: none;
+    margin: 0;
+}
+.header{
+    background-color: #FFF8F3;
 }
 /* comon shared  style */
 body {
@@ -27,6 +30,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 100px;
 
 }
 
@@ -52,4 +56,14 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    margin-right: 65px;
 }
